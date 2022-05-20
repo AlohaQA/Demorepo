@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="PackageTest">
     <packages>
-      <package name="Automation.Cucumber.*"/>
+      <package name="jenkinsTest.*"/>
     </packages>
   </test> 
 </suite> 

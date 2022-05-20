@@ -34,6 +34,13 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+
 
 	</dependencies>
 
@@ -47,7 +54,7 @@
 					<version>3.1.0</version>
 				</plugin>
 				<!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-				
+
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-source-plugin</artifactId>
@@ -60,7 +67,7 @@
 						</execution>
 					</executions>
 				</plugin>
-				
+
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
@@ -72,7 +79,7 @@
 					<version>3.0.0-M6</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>E:/Rest API Automation/maven_test/src/main/resources/testng.xml</suiteXmlFile>
+							<suiteXmlFile>E:/Rest API Automation/jenkinTest/src/main/resources/testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

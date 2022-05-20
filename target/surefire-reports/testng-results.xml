@@ -1,81 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
+  <suite started-at="2022-05-20T22:37:26 IST" name="Suite" finished-at="2022-05-20T22:37:44 IST" duration-ms="17140">
     <groups>
     </groups>
-    <test name="PackageTest" duration-ms="57" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-      <class name="Automation.Cucumber.MavenTest2">
-        <test-method status="PASS" signature="Test11()[pri:0, instance:Automation.Cucumber.MavenTest2@5f9d02cb]" name="Test11" duration-ms="2" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
+    <test started-at="2022-05-20T22:37:26 IST" name="PackageTest" finished-at="2022-05-20T22:37:44 IST" duration-ms="17140">
+      <class name="jenkinsTest.jenkinTest">
+        <test-method signature="myTest1()[pri:0, instance:jenkinsTest.jenkinTest@4fe767f3]" started-at="2022-05-20T22:37:27 IST" name="myTest1" finished-at="2022-05-20T22:37:33 IST" duration-ms="6630" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test11 -->
-        <test-method status="PASS" signature="Test12()[pri:0, instance:Automation.Cucumber.MavenTest2@5f9d02cb]" name="Test12" duration-ms="2" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
+        </test-method> <!-- myTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:jenkinsTest.jenkinTest@4fe767f3]" started-at="2022-05-20T22:37:33 IST" name="tearDown" finished-at="2022-05-20T22:37:37 IST" duration-ms="4301" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test12 -->
-        <test-method status="PASS" signature="Test13()[pri:0, instance:Automation.Cucumber.MavenTest2@5f9d02cb]" name="Test13" duration-ms="0" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
+        </test-method> <!-- tearDown -->
+        <test-method signature="myTest2()[pri:0, instance:jenkinsTest.jenkinTest@4fe767f3]" started-at="2022-05-20T22:37:37 IST" name="myTest2" finished-at="2022-05-20T22:37:43 IST" duration-ms="5835" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test13 -->
-        <test-method status="PASS" signature="Test14()[pri:0, instance:Automation.Cucumber.MavenTest2@5f9d02cb]" name="Test14" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
+        </test-method> <!-- myTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:jenkinsTest.jenkinTest@4fe767f3]" started-at="2022-05-20T22:37:43 IST" name="tearDown" finished-at="2022-05-20T22:37:44 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test14 -->
-        <test-method status="PASS" signature="Test15()[pri:0, instance:Automation.Cucumber.MavenTest2@5f9d02cb]" name="Test15" duration-ms="0" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test15 -->
-      </class> <!-- Automation.Cucumber.MavenTest2 -->
-      <class name="Automation.Cucumber.MavenTest3">
-        <test-method status="PASS" signature="Test10()[pri:0, instance:Automation.Cucumber.MavenTest3@63753b6d]" name="Test10" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test10 -->
-        <test-method status="PASS" signature="Test16()[pri:0, instance:Automation.Cucumber.MavenTest3@63753b6d]" name="Test16" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test16 -->
-        <test-method status="PASS" signature="Test6()[pri:0, instance:Automation.Cucumber.MavenTest3@63753b6d]" name="Test6" duration-ms="0" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test6 -->
-        <test-method status="PASS" signature="Test8()[pri:0, instance:Automation.Cucumber.MavenTest3@63753b6d]" name="Test8" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test8 -->
-        <test-method status="PASS" signature="Test7()[pri:0, instance:Automation.Cucumber.MavenTest3@63753b6d]" name="Test7" duration-ms="0" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test7 -->
-        <test-method status="PASS" signature="Test9()[pri:0, instance:Automation.Cucumber.MavenTest3@63753b6d]" name="Test9" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test9 -->
-      </class> <!-- Automation.Cucumber.MavenTest3 -->
-      <class name="Automation.Cucumber.MavenTest">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:Automation.Cucumber.MavenTest@71423665]" name="Test1" duration-ms="6" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:Automation.Cucumber.MavenTest@71423665]" name="Test2" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:Automation.Cucumber.MavenTest@71423665]" name="Test3" duration-ms="0" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method status="PASS" signature="Test4()[pri:0, instance:Automation.Cucumber.MavenTest@71423665]" name="Test4" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test4 -->
-        <test-method status="PASS" signature="Test5()[pri:0, instance:Automation.Cucumber.MavenTest@71423665]" name="Test5" duration-ms="1" started-at="2022-05-20T16:58:13 IST" finished-at="2022-05-20T16:58:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test5 -->
-      </class> <!-- Automation.Cucumber.MavenTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- jenkinsTest.jenkinTest -->
     </test> <!-- PackageTest -->
   </suite> <!-- Suite -->
 </testng-results>
