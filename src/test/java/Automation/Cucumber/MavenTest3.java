@@ -34,6 +34,12 @@ public class MavenTest3 {
 		System.out.println("Successfully Executed Fifteen Test...!!!");
 	}
 	
+	@Test
+	public void Test16() {
+		
+		System.out.println("Successfully Executed Sixteen Test...!!!");
+	}
+	
 	
 	
 	
